@@ -20,9 +20,9 @@ document.getElementById("history-btn").addEventListener('click', function () {
     foot.classList.remove("bg-[#F9F7F3]");
 });
 document.getElementById("blog-btn").addEventListener('click', function(){
-    window.location.href = "/ph-assignment-five/blog.html";
+    // /ph-assignment-five
+    window.location.href = "/blog.html";
 })
-
 
 // card Noakhali
 

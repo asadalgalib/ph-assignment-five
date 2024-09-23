@@ -4,4 +4,3 @@ function getInputValueById(id){
     const money = document.getElementById(id).value;
     return money;
 }
-

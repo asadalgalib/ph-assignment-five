@@ -26,6 +26,91 @@
 
 </head>
 <body class="font-lexend">
-    <h1 class="text-4xl">amar sonar bagnla</h1>
+    <header>
+        <nav class="">
+            <div id="remove-nav-bg" class="bg-[#F9F7F3] navbar px-5 md:px-32">
+                <div class="navbar-start">
+                    <button id="asd" class="btn bg-[#B4F461] hover:bg-[#d0ff92] px-8 font-semibold text-lg ">Home</button>
+                </div>
+                <div class="navbar-center flex items-center justify-center gap-2">
+                    <img class="w-8 hidden md:inline" src="./assets/logo.png" alt="">
+                    <p class="font-semibold text-lg hidden md:inline">Donate Bangladesh</p>
+                </div>
+                <div class="navbar-end flex items-center gap-2 md:gap-2">
+                    <img class="w-8" src="./assets/coin.png" alt="">
+                    <p class="text-lg font-medium text-[#111111B3]"><span id="account-balance">5500</span> BDT</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="px-5 pt-12 pb-12 md:px-28 md:pb-16 lg:px-40 lg:pb-16">
+            <h1 class="font-black text-4xl mb-4">Important FAQ?</h1>
+            <div class="collapse collapse-arrow bg-base-100 border mb-4">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium">What is the document object model (DOM)?</div>
+                <div class="collapse-content">
+                  <p class="text-base font-light">The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of an HTML or XML document as a tree of objects, allowing programs and scripts (like JavaScript) to interact with, access, and manipulate the content, structure, and styling of a web page dynamically.</p>
+                </div>
+              </div>
+                <div class="collapse collapse-arrow bg-base-100 border mb-4">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">How do you a select an element from the DOM?</div>
+                <div class="collapse-content">
+                  <p class="text-base font-light">You can select elements from the DOM using various methods in JavaScript. These methods allow you to target specific elements on a webpage based on their tag names, classes, IDs, attributes, and other properties. <br>
+                    <br>
+                    1. getElementById()
+                    <br>
+                    2. getElementsByClassName()
+                   <br>
+                    3. getElementsByTagName()
+                    <br>
+                    4. querySelector()
+                    <br>
+                    5. querySelectorAll()
+                    </p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-100 border mb-4">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">What is the event delegation in the context of the DOM why is it useful?</div>
+                <div class="collapse-content">
+                  <p class="text-base font-light">Event delegation is a technique in the DOM where a single event listener is added to a parent element instead of adding event listeners to each individual child element. When an event occurs on one of the child elements, the event is "delegated" to the parent, which handles it. This works because of event bubbling, where events propagate upward through the DOM tree from the event target to the parent elements.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-100 border mb-4">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">How do youu manipulate an elements attribute and style using the DOM</div>
+                <div class="collapse-content">
+                  <p class="text-base font-light">You can manipulate an element’s attributes and styles using JavaScript in the DOM. Here are the methods to do that: <br> <br>
+                    1. Manipulating Attributes <br>
+                    - getAttribute():
+                   <br>
+                    - setAttribute():
+                    <br>
+                    - removeAttribute():
+                   <br> <br>
+                    2. Manipulating Styles
+                    You can manipulate an element’s styles in the DOM by accessing the style property or using the classList API.
+                    <br>
+                    - Directly Setting Styles with style Property:
+                    The style property lets you set or modify individual CSS properties directly in JavaScript. It applies inline styles to the element.
+                    <br>
+                    - Using classList for Style Manipulation:
+                    The classList API provides an easier way to add, remove, toggle, or check for classes, which are often used for applying styles defined in CSS.
+                    <br>
+                    add(): Adds one or more class names to an element.
+                    <br>
+                    remove(): Removes one or more class names from an element.
+                    <br>
+                    toggle(): Toggles (adds if missing, removes if present) a class.
+                    <br>
+                    contains(): Checks if the element contains a certain class.</p>
+                </div>
+              </div>
+        </section>
+    </main>
+
+    <script src="./JS/blog.js"></script>
 </body>
 </html>
