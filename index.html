@@ -26,12 +26,12 @@
     </style>
 </head>
 
-<body class="font-lexend bg-[#F9F7F3]">
+<body class="font-lexend">
     <!-- header start -->
     <header class="sticky top-0 w-full z-20 backdrop-blur-md bg-opacity-50">
         <!-- navbar start -->
         <nav class="">
-            <div class="navbar px-5 md:px-32">
+            <div id="remove-nav-bg" class="bg-[#F9F7F3] navbar px-5 md:px-32">
                 <div class="navbar-start">
                     <button class="btn bg-[#B4F461] hover:bg-[#d0ff92] px-8 font-semibold text-lg ">Blog</button>
                 </div>
@@ -45,7 +45,7 @@
                 </div>
             </div>
             <!-- button start -->
-            <div class="pt-8 pb-8 flex items-center justify-center gap-4">
+            <div class="pt-8 pb-4 flex items-center justify-center gap-4">
                 <button id="donate-btn" class="btn bg-[#B4F461] hover:bg-[#d0ff92] px-8 font-semibold text-lg">Donation</button>
                 <button id="history-btn" class="btn  px-8 font-semibold text-lg">History</button>
             </div>
@@ -56,7 +56,7 @@
     <!-- main start -->
     <main class=" bg-white">
         <!-- donation section -->
-        <section id="sec-one" class="px-5 pb-12 md:px-28 md:pb-16 lg:px-40 lg:pb-16 ">
+        <section id="sec-one" class="px-5 pt-12 pb-12 md:px-28 md:pb-16 lg:px-40 lg:pb-16 ">
             <!-- card start  -->
             <div class="grid grid-cols-1 gap-8">
                 <!-- card one -->
@@ -70,7 +70,7 @@
                             <p><span id="noakhali-money"> 0</span> BDT</p>
                         </div>
                         <div class="flex flex-col justify-around">
-                            <h3 class="mt-4 text-xl font-bold">Donate for Flood at Noakhali, Bangladesh</h3>
+                            <h3 id="h-noakhali" class="mt-4 text-xl font-bold">Donate for Flood at Noakhali, Bangladesh</h3>
                         <p class="mt-4 text-base font-light"> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
                         <input id="input-noakhali" class="w-full p-4 border rounded-lg mt-8" type="text" name="" id="" placeholder="Write Donation Amount"><br>
                         <button id="btn-noakhali" class="btn w-full bg-[#B4F461] hover:bg-[#d0ff92] px-8 font-semibold text-lg">Donate Now</button>
@@ -119,22 +119,15 @@
         <!-- donation section end -->
          <!-- history section start -->
           <section id="sec-two" class="px-5 pb-12 md:px-28 md:pb-16 lg:px-40 lg:pb-16 hidden">
-            <div class="grid grid-cols-1 gap-8">
-                <div class="p-8 border rounded-2xl">
-                    <h3 class="mb-4 text-lg font-bold text-center">96500 Taka is Donated for famine-2024 at Feni, Bangladesh</h3>
-                    <p class="text-base font-normal text-center">Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)</p>
-                </div>
-                <div class="p-8 border rounded-2xl">
-                    <h3 class="mb-4 text-lg font-bold text-center">6500 Taka is Donated for Flood Relief in Feni,Bangladesh</h3>
-                    <p class="text-base font-normal text-center">Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)</p>
-                </div>
+            <div id="parent-div" class="mt-6 grid grid-cols-1 gap-8">
+               
             </div>
           </section>
           <!-- history section end -->
     </main>
     <!-- main end -->
     <!-- footer start -->
-    <footer class="py-12 md:py-16"></footer>
+    <footer id="fo" class="bg-[#F9F7F3] py-12 md:py-16"></footer>
 
     <script src="./JS/shared.js"></script>
     <script src="./JS/first.js"></script>
