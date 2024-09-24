@@ -23,7 +23,7 @@ document.getElementById("history-btn").addEventListener('click', function () {
     sectionOne.classList.add("hidden");
 
     const foot = document.getElementById("fo");
-    foot.classList.remove("bg-[#F9F7F3]");
+    foot.classList.add("hidden");
 
     const btnOne = document.getElementById("donate-btn");
     btnOne.classList.remove("bg-[#B4F461]", "hover:bg-[#d0ff92]");
@@ -126,7 +126,6 @@ document.getElementById("btn-feni").addEventListener('click', function (event) {
     else {
         alert("Invalid Donation Amount");
     }
-
 })
 
 // card quota 
