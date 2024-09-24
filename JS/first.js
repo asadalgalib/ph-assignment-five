@@ -11,6 +11,12 @@ document.getElementById("donate-btn").addEventListener('click', function () {
 
     const foot = document.getElementById("fo");
     foot.classList.add("bg-[#F9F7F3]");
+
+    const btnOne = document.getElementById("donate-btn");
+    btnOne.classList.add("bg-[#B4F461]", "hover:bg-[#d0ff92]");
+
+    const btnTwo = document.getElementById("history-btn")
+    btnTwo.classList.remove("bg-[#B4F461]", "hover:bg-[#d0ff92]")
 });
 document.getElementById("history-btn").addEventListener('click', function () {
     sectionTwo.classList.remove("hidden");
@@ -18,6 +24,12 @@ document.getElementById("history-btn").addEventListener('click', function () {
 
     const foot = document.getElementById("fo");
     foot.classList.remove("bg-[#F9F7F3]");
+
+    const btnOne = document.getElementById("donate-btn");
+    btnOne.classList.remove("bg-[#B4F461]", "hover:bg-[#d0ff92]");
+
+    const btnTwo = document.getElementById("history-btn")
+    btnTwo.classList.add("bg-[#B4F461]", "hover:bg-[#d0ff92]")
 });
 document.getElementById("blog-btn").addEventListener('click', function(){
     // /ph-assignment-five
@@ -66,7 +78,7 @@ document.getElementById("btn-noakhali").addEventListener('click', function (even
         parent.appendChild(div);
     }
     else {
-        alert("Invalid input");
+        alert("Invalid Donation Amount");
     }
 })
 
@@ -112,7 +124,7 @@ document.getElementById("btn-feni").addEventListener('click', function (event) {
         parent.appendChild(div);
     }
     else {
-        alert("Invalid input");
+        alert("Invalid Donation Amount");
     }
 
 })
@@ -159,6 +171,6 @@ document.getElementById("btn-quota").addEventListener('click', function (event) 
         parent.appendChild(div);
     }
     else {
-        alert("Invalid input");
+        alert("Invalid Donation Amount");
     }
 })
