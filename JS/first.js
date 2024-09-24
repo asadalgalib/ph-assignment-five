@@ -21,7 +21,7 @@ document.getElementById("history-btn").addEventListener('click', function () {
 });
 document.getElementById("blog-btn").addEventListener('click', function(){
     // /ph-assignment-five
-    window.location.href = "/blog.html";
+    window.location.href = "/ph-assignment-five/blog.html";
 })
 
 // card Noakhali
